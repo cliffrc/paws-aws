@@ -9,6 +9,7 @@ phases:
 
         # Create the AWS dir
       - mkdir -p ~/.aws/
+      - sleep 2
 
         # Create fake credential file
       - echo "[default]\naws_access_key_id = \
