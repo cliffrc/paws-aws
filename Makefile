@@ -6,7 +6,7 @@ setup:
 	python3 -m venv ~/.pragai-aws
 
 install:
-	pip install -r ~/.pragai-aws/requirements.txt
+	pip install -r requirements.txt
 
 test:
 	PYTHONPATH=. && pytest -vv  --cov=paws tests/*.py
