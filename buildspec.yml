@@ -8,7 +8,7 @@ phases:
       - make install
 
         # Create the AWS dir
-      - mkdir -p ~/.aws/
+      - mkdir -p ~/.aws
       - sleep 2
 
         # Create fake credential file
